@@ -28,6 +28,13 @@ const angularApp = new AngularNodeAppEngine();
 
 /**
  * Serve static files from /browser
+ * 
+ * Static files (images, CSS, JS, etc.) should be placed in:
+ * /psl-resources/dist/browser/
+ * 
+ * During development, you can place them in:
+ * /psl-resources/src/assets/
+ * which will be copied to the browser dist folder during build.
  */
 app.use(
   express.static(browserDistFolder, {
