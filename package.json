@@ -1,6 +1,11 @@
 {
   "name": "psl-resources",
   "version": "0.0.0",
+  "author": {
+    "name": "hyperdiamond",
+    "email": "psl@hyperdiamond.dev",
+    "url": "https://hyperdiamond.dev"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
